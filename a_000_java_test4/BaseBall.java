@@ -1,6 +1,19 @@
 package a_000_java_test4;
 import java.util.*;
 import java.io.*;
+
+/*
+1. 난수로 숫자 3개를 만들어 변수 x,y,z에 1~9의 데이터를 저장한 후
+2. do while 문을 두 번 이용하여 x,y,z의 값이 같지 않도록 코딩
+3. 플레이어가 선택한 첫 번째, 두 번째, 세 번째 숫자를 입력받아 배열에 저장
+4. 사용자가 선택한 수를 저장한 배열을 이용하여 strike와 ball을 카운트
+5. 문제를 맞추려고 시도한 횟수(result)에 따라 칭찬 메시지를 출력
+   2회 이하 : 참잘했어요
+   5회 이하 : 잘했어요
+   9회 이하 : 보통이네요
+10회 부터 : 분발하세요!
+*/
+
 public class BaseBall {
 	public static int playGame() throws IOException{
 		int x,y,z;
