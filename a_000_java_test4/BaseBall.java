@@ -112,6 +112,7 @@ public class BaseBall {
 		}
 		
 		System.out.println();
+		//result == count랑 같음
 		if(result<=2) {
 			System.out.println("참 잘했어요!");
 		}else if(result<=5) {
