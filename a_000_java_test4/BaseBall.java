@@ -105,11 +105,10 @@ public class BaseBall {
 			int x = Integer.valueOf(args[0]).intValue();
 			int y = Integer.valueOf(args[1]).intValue();
 			int z = Integer.valueOf(args[2]).intValue();
-			System.out.println(x+", "+y);
 			
-			result = playGame(x, y, z);
+			result = playGame(x, y, z); // 있으면 x,y,z로
 		}else {
-			result = playGame();
+			result = playGame(); //없을때 만들기
 		}
 		
 		System.out.println();
